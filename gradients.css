@@ -1,0 +1,35 @@
+.g1
+{
+	background: rgb(34,131,250);
+	background: linear-gradient(135deg, rgba(34,131,250,1) 0%, rgba(74,250,176,1) 100%);
+}
+
+.g2
+{
+	background: rgb(244,92,67);
+	background: linear-gradient(135deg, rgba(244,92,67,1) 0%, rgba(224,41,41,1) 100%);
+}
+
+.g3
+{
+	background: rgb(17,82,145);
+	background: linear-gradient(113deg, rgba(17,82,145,1) 0%, rgba(20,0,75,1) 69%, rgba(5,19,32,1) 100%);
+}
+
+.g4
+{
+	background: rgb(249,151,2);
+	background: linear-gradient(214deg, rgba(249,151,2,1) 18%, rgba(239,7,113,1) 39%, rgba(134,13,255,1) 69%, rgba(51,143,212,1) 91%, rgba(51,170,223,1) 100%);
+}
+
+.g5
+{
+	background: rgb(166,168,170);
+	background: linear-gradient(113deg, rgba(166,168,170,1) 0%, rgba(39,41,42,1) 100%);
+}
+
+.g6
+{
+	background: rgb(146,223,18);
+	background: linear-gradient(113deg, rgba(146,223,18,1) 0%, rgba(241,255,0,1) 83%);
+}

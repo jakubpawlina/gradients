@@ -43,7 +43,7 @@ body, html
 
 .gradient h1
 {
-	font-size: 6rem;
+	font-size: 6vw;
 	color: white;
 	letter-spacing: 4px;
 	text-align: center;
@@ -52,10 +52,6 @@ body, html
 
 @media only screen and (max-width: 800px)
 {
-	.gradient h1
-	{
-		font-size: 4rem;
-	}
 	.gradient
 	{
 		align-items: flex-end;
@@ -64,22 +60,10 @@ body, html
 
 @media only screen and (max-width: 500px)
 {
-	.gradient h1
-	{
-		font-size: 3rem;
-	}
 	.flickity-prev-next-button
 	{
 		width: 70px !important;
 		height: 70px !important;
 		margin: 0 5px !important;
-	}
-}
-
-@media only screen and (max-width: 300px)
-{
-	.gradient h1
-	{
-		font-size: 1rem;
 	}
 }

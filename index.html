@@ -3,29 +3,127 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="gradients.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/gradients.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" integrity="sha512-BiFZ6oflftBIwm6lYCQtQ5DIRQ6tm02svznor2GYQOfAlT3pnVJ10xCrU3XuXnUrWQ4EG8GKxntXnYEdKY0Ugg==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 	<title>Gradients</title>
 </head>
 <body>
-	<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "hash": true }'>
-		<div class="gradient g1" id="g1"><h1>Ocean</h1></div>
-		<div class="gradient g2" id="g2"><h1>Grapefruit</h1></div>
-		<div class="gradient g3" id="g3"><h1>Deep</h1></div>
-		<div class="gradient g4" id="g4"><h1>Vibrant</h1></div>
-		<div class="gradient g5" id="g5"><h1>Steel</h1></div>
-		<div class="gradient g6" id="g6"><h1>Lime</h1></div>
-		<div class="gradient g7" id="g7"><h1>Beach</h1></div>
-		<div class="gradient g8" id="g8"><h1>Sundown</h1></div>
-		<div class="gradient g9" id="g9"><h1>Red wine</h1></div>
-		<div class="gradient g10" id="g10"><h1>Phenolphathalein</h1></div>
-		<div class="gradient g11" id="g11"><h1>Magnet</h1></div>
-		<div class="gradient g12" id="g12"><h1>Peach</h1></div>
-		<div class="gradient g13" id="g13"><h1>Avokado</h1></div>
-		<div class="gradient g14" id="g14"><h1>Amber</h1></div>
+
+	<div id="modal" class="modal">
+		CSS copied to the clipboard!
+		<button onclick="hide_modal()"><i class="fas fa-times"></i></button>
 	</div>
 
+	<div class="gallery js-flickity" data-flickity-options='{"wrapAround": true, "hash": true}'>
+
+		<div class="gradient start" id="start">
+			<h1>Gradients</h1>
+			<h2>Go right or left to browse gradients library</h2>
+		</div>
+
+		<div class="gradient g1" id="g1">
+			<h1>Ocean</h1>
+			<button onclick="copy_to_clipboard('g1')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g2" id="g2">
+			<h1>Grapefruit</h1>
+			<button onclick="copy_to_clipboard('g2')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g3" id="g3">
+			<h1>Deep</h1>
+			<button onclick="copy_to_clipboard('g3')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g4" id="g4">
+			<h1>Vibrant</h1>
+			<button onclick="copy_to_clipboard('g4')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g5" id="g5">
+			<h1>Steel</h1>
+			<button onclick="copy_to_clipboard('g5')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g6" id="g6">
+			<h1>Lime</h1>
+			<button onclick="copy_to_clipboard('g6')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g7" id="g7">
+			<h1>Beach</h1>
+			<button onclick="copy_to_clipboard('g7')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g8" id="g8">
+			<h1>Sundown</h1>
+			<button onclick="copy_to_clipboard('g8')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g9" id="g9">
+			<h1>Red wine</h1>
+			<button onclick="copy_to_clipboard('g9')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g10" id="g10">
+			<h1>Phenolphathalein</h1>
+			<button onclick="copy_to_clipboard('g10')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g11" id="g11">
+			<h1>Magnet</h1>
+			<button onclick="copy_to_clipboard('g11')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g12" id="g12">
+			<h1>Peach</h1>
+			<button onclick="copy_to_clipboard('g12')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g13" id="g13">
+			<h1>Avokado</h1>
+			<button onclick="copy_to_clipboard('g13')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+		<div class="gradient g14" id="g14">
+			<h1>Amber</h1>
+			<button onclick="copy_to_clipboard('g14')" title="Copy CSS to the clipboard!" id="copy">
+				<i class="fas fa-copy"></i>
+			</button>
+		</div>
+
+	</div>
+
+	<script src="js/copy.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js" integrity="sha512-cA8gcgtYJ+JYqUe+j2JXl6J3jbamcMQfPe0JOmQGDescd+zqXwwgneDzniOd3k8PcO7EtTW6jA7L4Bhx03SXoA==" crossorigin="anonymous"></script>
 	<script src='https://unpkg.com/flickity-hash@1/hash.js'></script>
 </body>

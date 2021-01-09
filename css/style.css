@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Antic Slab', serif;
+	display: flex;
+	flex-direction: column;
+	text-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+}
+
+.flickity-page-dots
+{
+	display: none;
+}
+
+.flickity-prev-next-button
+{
+	width: 100px !important;
+	height: 100px !important;
+	background: transparent !important;
+	color: white !important;
+	margin: 0 20px;
+}
+
+.gallery
+{
+	background: #EEE;
+	height: 100vh;
+}
+
+.gradient
+{
+	margin: 0;
+	width: calc(100vw - 2rem);
+	height: calc(100vh - 2rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	width: 100%;
+	flex-direction: column;
+}
+
+.start
+{
+	background: rgb(25,39,55);
+	background: linear-gradient(148deg, rgba(25,39,55,1) 0%, rgba(3,3,4,1) 100%);
+}
+
+.gradient h1
+{
+	font-size: 8vw;
+	color: white;
+	letter-spacing: 4px;
+	text-align: center;
+	margin: 2rem;
+}
+
+.start h2
+{
+	font-size: 2vw;
+	color: white;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0 2rem 2rem 2rem;
+}
+
+@media only screen and (max-width: 800px)
+{
+	.gradient
+	{
+		justify-content: flex-end;
+	}
+	.start
+	{
+		justify-content: space-between;
+	}
+	.start h2
+	{
+		font-size: 4vw;
+	}
+}
+
+@media only screen and (max-width: 500px)
+{
+	.flickity-prev-next-button
+	{
+		width: 70px !important;
+		height: 70px !important;
+		margin: 0 5px !important;
+	}
+	.start h2
+	{
+		font-size: 6vw;
+	}
+}
+
+#copy
+{
+	position: absolute;
+	right: calc(0% + 1rem);
+	top: 0;
+	background-color: transparent;
+	color: white;
+	border: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	font-size: 1.5rem;
+	cursor: pointer;
+	text-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+}
+
+.modal
+{
+	display: none;
+	position: absolute;
+	z-index: 1000;
+	top: 0.5rem;
+	left: 0.5rem;
+	width: 15rem;
+	background-color: rgba(0, 0, 0, 0.4);
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	border-radius: 0.2rem;
+	color: white;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+}
+
+.modal button
+{
+	color: white;
+	background-color: transparent;
+	font-size: 0.8rem;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+
+}
+
+.fade-out
+{
+	display: flex;
+	animation: fadeout 3s forwards;
+}
+
+@keyframes fadeout
+{
+	0% {opacity: 1;}
+	90% {opacity: 1;}
+	100% {opacity: 0;}
+}

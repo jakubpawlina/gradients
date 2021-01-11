@@ -1,83 +1,107 @@
-.g1
+.ocean
 {
 	background-color: rgb(34,131,250);
 	background-image: linear-gradient(135deg, rgba(34,131,250,1) 0%, rgba(74,250,176,1) 100%);
 }
 
-.g2
+.grapefruit
 {
 	background-color: rgb(244,92,67);
 	background-image: linear-gradient(135deg, rgba(244,92,67,1) 0%, rgba(224,41,41,1) 100%);
 }
 
-.g3
+.deep
 {
 	background-color: rgb(17,82,145);
 	background-image: linear-gradient(113deg, rgba(17,82,145,1) 0%, rgba(20,0,75,1) 69%, rgba(5,19,32,1) 100%);
 }
 
-.g4
+.vibrant
 {
 	background-color: rgb(249,151,2);
 	background-image: linear-gradient(214deg, rgba(249,151,2,1) 18%, rgba(239,7,113,1) 39%, rgba(134,13,255,1) 69%, rgba(51,143,212,1) 91%, rgba(51,170,223,1) 100%);
 }
 
-.g5
+.steel
 {
 	background-color: rgb(166,168,170);
 	background-image: linear-gradient(113deg, rgba(166,168,170,1) 0%, rgba(39,41,42,1) 100%);
 }
 
-.g6
+.lime
 {
 	background-color: rgb(146,223,18);
 	background-image: linear-gradient(113deg, rgba(146,223,18,1) 0%, rgba(241,255,0,1) 83%);
 }
 
-.g7
+.beach
 {
 	background-color: rgb(18,191,223);
 	background-image: linear-gradient(113deg, rgba(18,191,223,1) 0%, rgba(255,111,0,1) 83%);
 }
 
-.g8
+.sundown
 {
 	background-color: rgb(67,45,134);
 	background-image: linear-gradient(331deg, rgba(67,45,134,1) 0%, rgba(202,82,82,1) 41%, rgba(247,195,3,1) 93%);
 }
 
-.g9
+.red-wine
 {
 	background-color: rgb(182,15,15);
 	background-image: linear-gradient(331deg, rgba(182,15,15,1) 16%, rgba(51,16,16,1) 100%);
 }
 
-.g10
+.phenolphthalein
 {
 	background-color: rgb(164,16,98);
 	background-image: linear-gradient(331deg, rgba(164,16,98,1) 3%, rgba(224,25,163,1) 91%);
 }
 
-.g11
+.magnet
 {
 	background-color: rgb(0,172,255);
 	background-image: linear-gradient(264deg, rgba(0,172,255,1) 0%, rgba(212,2,17,1) 100%);
 }
 
-.g12
+.peach
 {
 	background-color: rgb(255,249,122);
 	background-image: linear-gradient(204deg, rgba(255,249,122,1) 0%, rgba(255,75,75,1) 100%);
 }
 
-.g13
+.avocado
 {
 	background-color: rgb(237,255,112);
 	background-image: linear-gradient(338deg, rgba(237,255,112,1) 0%, rgba(0,61,2,1) 100%);
 }
 
-.g14
+.amber
 {
 	background-color: rgb(180,105,0);
 	background-image: linear-gradient(22deg, rgba(180,105,0,1) 0%, rgba(231,195,9,1) 100%);
+}
+
+.amethyst
+{
+	background: rgb(255,230,249);
+	background: linear-gradient(148deg, rgba(255,230,249,1) 0%, rgba(207,128,188,1) 23%, rgba(176,70,150,1) 43%, rgba(158,26,126,1) 74%, rgba(71,1,54,1) 100%);
+}
+
+.emerald
+{
+	background: rgb(14,148,25);
+	background: linear-gradient(148deg, rgba(14,148,25,1) 0%, rgba(0,43,8,1) 100%);
+}
+
+.leaves
+{
+	background: rgb(60,148,27);
+	background: linear-gradient(148deg, rgba(60,148,27,1) 0%, rgba(120,191,18,1) 11%, rgba(165,219,10,1) 21%, rgba(241,222,0,1) 43%, rgba(255,158,0,1) 57%, rgba(255,119,0,1) 67%, rgba(214,61,0,1) 81%, rgba(97,71,12,1) 100%);
+}
+
+.turquoise-beach
+{
+	background: rgb(9,60,112);
+	background: linear-gradient(135deg, rgba(9,60,112,1) 0%, rgba(15,99,155,1) 4%, rgba(19,193,200,1) 20%, rgba(14,202,178,1) 32%, rgba(55,212,148,1) 43%, rgba(158,224,186,1) 48%, rgba(239,255,238,1) 52%, rgba(237,245,214,1) 55%, rgba(224,194,96,1) 64%, rgba(231,163,88,1) 68%, rgba(229,169,62,1) 80%, rgba(236,183,85,1) 89%, rgba(194,154,17,1) 100%);
 }

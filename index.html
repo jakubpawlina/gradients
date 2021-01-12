@@ -17,141 +17,16 @@
 		<button onclick="hide_modal()"><i class="fas fa-times"></i></button>
 	</div>
 
-	<div class="gallery js-flickity" data-flickity-options='{"wrapAround": true, "hash": true}'>
+	<div id="gallery" class="gallery js-flickity" data-flickity-options='{"wrapAround": true, "hash": true}'>
 
 		<div class="gradient start" id="start">
 			<h1>Gradients</h1>
 			<h2>Go right or left to browse gradients library</h2>
 		</div>
 
-		<div class="gradient ocean" id="ocean">
-			<h1>Ocean</h1>
-			<button onclick="copy_to_clipboard('ocean')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient grapefruit" id="grapefruit">
-			<h1>Grapefruit</h1>
-			<button onclick="copy_to_clipboard('grapefruit')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient deep" id="deep">
-			<h1>Deep</h1>
-			<button onclick="copy_to_clipboard('deep')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient vibrant" id="vibrant">
-			<h1>Vibrant</h1>
-			<button onclick="copy_to_clipboard('vibrant')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient steel" id="steel">
-			<h1>Steel</h1>
-			<button onclick="copy_to_clipboard('steel')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient lime" id="lime">
-			<h1>Lime</h1>
-			<button onclick="copy_to_clipboard('lime')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient beach" id="beach">
-			<h1>Beach</h1>
-			<button onclick="copy_to_clipboard('beach')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient sundown" id="sundown">
-			<h1>Sundown</h1>
-			<button onclick="copy_to_clipboard('sundown')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient red-wine" id="red-wine">
-			<h1>Red wine</h1>
-			<button onclick="copy_to_clipboard('red-wine')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient phenolphthalein" id="phenolphthalein">
-			<h1>Phenolphathalein</h1>
-			<button onclick="copy_to_clipboard('phenolphthalein')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient magnet" id="magnet">
-			<h1>Magnet</h1>
-			<button onclick="copy_to_clipboard('magnet')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient peach" id="peach">
-			<h1>Peach</h1>
-			<button onclick="copy_to_clipboard('peach')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient avocado" id="avocado">
-			<h1>Avocado</h1>
-			<button onclick="copy_to_clipboard('avocado')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient amber" id="amber">
-			<h1>Amber</h1>
-			<button onclick="copy_to_clipboard('amber')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient amethyst" id="amethyst">
-			<h1>Amethyst</h1>
-			<button onclick="copy_to_clipboard('amethyst')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient emerald" id="emerald">
-			<h1>Emerald</h1>
-			<button onclick="copy_to_clipboard('emerald')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient leaves" id="leaves">
-			<h1>Leaves</h1>
-			<button onclick="copy_to_clipboard('leaves')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
-		<div class="gradient turquoise-beach" id="turquoise-beach">
-			<h1>Turquoise Beach</h1>
-			<button onclick="copy_to_clipboard('turquoise-beach')" title="Copy CSS to the clipboard!" id="copy">
-				<i class="fas fa-copy"></i>
-			</button>
-		</div>
-
 	</div>
 
+	<script src="js/gradients.js"></script>
 	<script src="js/copy.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js" integrity="sha512-cA8gcgtYJ+JYqUe+j2JXl6J3jbamcMQfPe0JOmQGDescd+zqXwwgneDzniOd3k8PcO7EtTW6jA7L4Bhx03SXoA==" crossorigin="anonymous"></script>
 	<script src='https://unpkg.com/flickity-hash@1/hash.js'></script>

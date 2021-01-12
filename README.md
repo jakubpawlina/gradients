@@ -12,7 +12,7 @@ Gradients library for UI designing. Choose gradient, copy its CSS code and use i
 
 ## Contributing
 #### Adding gradients
-1. Add a gradient to the file ```css/gradients.css```. Here is a basic scheme of the code looks like this:
+1. Add a gradient to a file ```css/gradients.css```. Here is a basic scheme of the code:
 	```css
 	.{name}
 	{
@@ -20,14 +20,12 @@ Gradients library for UI designing. Choose gradient, copy its CSS code and use i
 		background-image: linear-gradient({0-359}deg, rgba({0-255}, {0-255}, {0-255}, {0-1}) {0-100}%, rgba({0-255}, {0-255}, {0-255}, {0-1}) {0-100}%);
 	}
 	```
-2. Add a gradient to ```index.html``` file, as the last element in a div 'gallery'. The code should look like this:
-	```html
-	<div class="gradient {gradient-name}" id="{gradient-name}">
-		<h1>{Displayed Name}</h1>
-		<button onclick="copy_to_clipboard('{gradient-name}')" title="Copy CSS to the clipboard!" id="copy">
-			<i class="fas fa-copy"></i>
-		</button>
-	</div>
+2. Add the gradient's names to a file ```js/gradients.js```, to the array ```gradients```. A new item should look like this:
+	```js
+	{
+		displayed_name: "Displayed Name",
+		gradient_name: "gradient-name" // the same as the css class
+	}
 	```
 #### Other contributions
 Feel free to suggest your own ideas. This is the magic of the open source!

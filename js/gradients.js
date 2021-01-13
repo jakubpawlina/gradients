@@ -66,6 +66,46 @@ const gradients = [
 	{
 		displayed_name: "Turquoise Beach",
 		gradient_name: "turquoise-beach"
+	},
+	{
+		displayed_name: "Snow",
+		gradient_name: "snow"
+	},
+	{
+		displayed_name: "Magic",
+		gradient_name: "magic"
+	},
+	{
+		displayed_name: "Apple",
+		gradient_name: "apple"
+	},
+	{
+		displayed_name: "Slow Diffusion",
+		gradient_name: "slow-diffusion"
+	},
+	{
+		displayed_name: "Yerba Mate",
+		gradient_name: "yerba-mate"
+	},
+	{
+		displayed_name: "Autumn",
+		gradient_name: "autumn"
+	},
+	{
+		displayed_name: "Bunfight",
+		gradient_name: "bunfight"
+	},
+	{
+		displayed_name: "Dreamy",
+		gradient_name: "dreamy"
+	},
+	{
+		displayed_name: "Beer",
+		gradient_name: "beer"
+	},
+	{
+		displayed_name: "Sky",
+		gradient_name: "sky"
 	}
 ]
 

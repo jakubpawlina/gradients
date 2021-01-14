@@ -10,11 +10,6 @@ body
 	text-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
 }
 
-.flickity-page-dots
-{
-	display: none;
-}
-
 .flickity-prev-next-button
 {
 	width: 100px !important;

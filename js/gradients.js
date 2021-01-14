@@ -112,7 +112,7 @@ const gradients = [
 function display_gradient(gradient)
 {
 	return `
-	<div class="gradient ${gradient.gradient_name}" id="${gradient.gradient_name}">
+	<div class="gradient carousel-cell ${gradient.gradient_name}" id="${gradient.gradient_name}">
 		<h1>${gradient.displayed_name}</h1>
 		<button onclick="copy_to_clipboard('${gradient.gradient_name}')" title="Copy CSS to the clipboard!" id="copy">
 			<i class="fas fa-copy"></i>
@@ -121,4 +121,4 @@ function display_gradient(gradient)
 	`
 }
 
-document.getElementById("gallery").innerHTML += `${gradients.map(display_gradient).join('')}`
+document.getElementById("carousel").innerHTML += `${gradients.map(display_gradient).join('')}`

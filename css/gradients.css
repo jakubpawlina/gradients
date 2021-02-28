@@ -165,3 +165,27 @@
 	background-color: rgb(193,233,255);
 	background-image: linear-gradient(190deg, rgba(193,233,255,1) 0%, rgba(138,188,231,1) 100%);
 }
+
+.candy
+{
+	background-color: rgb(231,213,73);
+	background-image: linear-gradient(90deg, rgba(231,213,73,1) 0%, rgba(242,0,90,1) 100%);
+}
+
+.peppermint
+{
+	background-color: rgb(39,189,102);
+	background-image: linear-gradient(149deg, rgba(39,189,102,1) 0%, rgba(11,111,48,1) 100%);
+}
+
+.cityglow
+{
+	background-color: rgb(6,5,37);
+	background-image: linear-gradient(180deg, rgba(6,5,37,1) 0%, rgba(35,22,59,1) 24%, rgba(57,35,59,1) 41%, rgba(71,44,53,1) 59%, rgba(96,58,44,1) 76%, rgba(118,72,36,1) 87%, rgba(128,78,32,1) 91%, rgba(153,93,22,1) 98%, rgba(185,112,10,1) 100%);
+}
+
+.purple
+{
+	background-color: rgb(126,8,180);
+	background-image: linear-gradient(221deg, rgba(126,8,180,1) 0%, rgba(35,22,59,1) 100%);
+}

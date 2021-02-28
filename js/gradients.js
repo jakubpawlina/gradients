@@ -106,6 +106,22 @@ const gradients = [
 	{
 		displayed_name: "Sky",
 		gradient_name: "sky"
+	},
+	{
+		displayed_name: "Candy",
+		gradient_name: "candy"
+	},
+	{
+		displayed_name: "Peppermint",
+		gradient_name: "peppermint"
+	},
+	{
+		displayed_name: "City Glow",
+		gradient_name: "cityglow"
+	},
+	{
+		displayed_name: "Purple",
+		gradient_name: "purple"
 	}
 ]
 

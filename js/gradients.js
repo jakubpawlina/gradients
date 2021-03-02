@@ -122,6 +122,14 @@ const gradients = [
 	{
 		displayed_name: "Purple",
 		gradient_name: "purple"
+	},
+	{
+		displayed_name: "Lagoon",
+		gradient_name: "lagoon"
+	},
+	{
+		displayed_name: "Blue Lemon",
+		gradient_name: "bluelemon"
 	}
 ]
 

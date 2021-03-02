@@ -189,3 +189,15 @@
 	background-color: rgb(126,8,180);
 	background-image: linear-gradient(221deg, rgba(126,8,180,1) 0%, rgba(35,22,59,1) 100%);
 }
+
+.lagoon
+{
+	background-color: rgb(8,87,159);
+	background-image: linear-gradient(20deg, rgba(8,87,159,1) 0%, rgba(19,172,187,1) 100%);
+}
+
+.bluelemon
+{
+	background-color: rgb(8,115,180);
+	background-image: linear-gradient(221deg, rgba(8,115,180,1) 0%, rgba(164,190,52,1) 100%);
+}

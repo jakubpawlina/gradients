@@ -130,6 +130,18 @@ const gradients = [
 	{
 		displayed_name: "Blue Lemon",
 		gradient_name: "bluelemon"
+	},
+	{
+		displayed_name: "Message",
+		gradient_name: "message"
+	},
+	{
+		displayed_name: "Exotic",
+		gradient_name: "exotic"
+	},
+	{
+		displayed_name: "Unicorn",
+		gradient_name: "unicorn"
 	}
 ]
 

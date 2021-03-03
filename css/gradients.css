@@ -201,3 +201,21 @@
 	background-color: rgb(8,115,180);
 	background-image: linear-gradient(221deg, rgba(8,115,180,1) 0%, rgba(164,190,52,1) 100%);
 }
+
+.message
+{
+	background-color: rgb(185,8,228);
+	background-image: linear-gradient(197deg, rgba(185,8,228,1) 0%, rgba(126,37,222,1) 36%, rgba(7,96,210,1) 82%, rgba(81,131,196,1) 100%);
+}
+
+.exotic
+{
+	background-color: rgb(212,191,0);
+	background-image: linear-gradient(214deg, rgba(212,191,0,1) 0%, rgba(241,149,41,1) 22%, rgba(223,50,88,1) 49%, rgba(210,70,72,1) 77%, rgba(210,133,7,1) 100%);
+}
+
+.unicorn
+{
+	background-color: rgb(128,0,255);
+	background-image: linear-gradient(315deg, rgba(128,0,255,1) 0%, rgba(247,58,255,1) 82%, rgba(249,96,255,1) 100%);
+}

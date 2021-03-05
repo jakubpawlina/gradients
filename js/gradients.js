@@ -142,6 +142,18 @@ const gradients = [
 	{
 		displayed_name: "Unicorn",
 		gradient_name: "unicorn"
+	},
+	{
+		displayed_name: "Mojito",
+		gradient_name: "mojito"
+	},
+	{
+		displayed_name: "Fanta",
+		gradient_name: "fanta"
+	},
+	{
+		displayed_name: "Watermelon",
+		gradient_name: "watermelon"
 	}
 ]
 
